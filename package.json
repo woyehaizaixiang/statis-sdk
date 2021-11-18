@@ -1,5 +1,5 @@
 {
-  "name": "statis-sdk",
+  "name": "statis-sdks",
   "version": "1.0.1",
   "description": "sdk",
   "main": "dist/index.js",

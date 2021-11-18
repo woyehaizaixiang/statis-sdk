@@ -7,7 +7,7 @@
 #### [npm](https://www.npmjs.com/)安装
 
 ```bash
-npm install statis-sdk
+npm install statis-sdks
 ```
 
 #### 使用
@@ -15,12 +15,12 @@ npm install statis-sdk
 一、vue项目
 在项目代码第一行加入
 ```js
-import statisReport from 'statis-sdk';
+import statisReport from 'statis-sdks';
 statisReport.init(Vue);
 ```
 
 二、普通项目
 在项目代码第一行加入
 ```js
-import 'statis-sdk';
+import 'statis-sdks';
 ```
