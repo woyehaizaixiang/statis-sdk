@@ -22,6 +22,5 @@ statisReport.init(Vue);
 二、普通项目
 在项目代码第一行加入
 ```js
-import statisReport from 'statis-sdk';
-statisReport.init();
+import 'statis-sdk';
 ```
