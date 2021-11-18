@@ -1,0 +1,30 @@
+{
+  "name": "statis-sdk",
+  "version": "1.0.0",
+  "description": "sdk",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "vue": "^2.6.14",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "babel-loader": "^8.0.6"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woyehaizaixiang/statis-sdk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woyehaizaixiang/statis-sdk/issues"
+  },
+  "homepage": "https://github.com/woyehaizaixiang/statis-sdk#readme"
+}
