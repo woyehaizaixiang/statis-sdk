@@ -17,6 +17,6 @@ function init(Vue){
   }
 }
 
-export default {
+module.exports = {
   init,
 }
