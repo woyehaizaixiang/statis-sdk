@@ -1,6 +1,6 @@
 {
   "name": "statis-sdks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "sdk",
   "main": "dist/index.js",
   "dependencies": {
