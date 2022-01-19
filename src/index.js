@@ -13,6 +13,7 @@ function init(Vue){
   if(typeof(Vue) != 'undefined'){
     Vue.config.errorHandler = function (error) {
       reportError(error);
+      console.log(error);
     }
   }
 }
