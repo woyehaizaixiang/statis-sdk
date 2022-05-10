@@ -5,11 +5,10 @@ function reportError(log){
   new Image().src = `http://101.132.236.74:3000/log?log=${log}&ua=${ua}&host=${href}`;
 }
 
-window.addEventListener('error', error => {
-  reportError(error.message);
-})
-
 function init(Vue){
+  window.addEventListener('error', error => {
+    reportError(error.message);
+  })
   if(typeof(Vue) != 'undefined'){
     Vue.config.errorHandler = function (error) {
       reportError(error);
